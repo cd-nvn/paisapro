@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 date: 2024-02-17
 title:  "Hello, World!"
 author: shikha
@@ -8,6 +8,7 @@ categories: [ posts ]
 image: ./assets/images/hello-world.png
 description: "Hello, World!"
 published: true
+rating: 4.5
 ---
 
 
