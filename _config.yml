@@ -10,6 +10,7 @@ disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
+rating: 4.5
 
 # Authors
 authors:
@@ -18,7 +19,7 @@ authors:
     display_name: Shikha
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: hello.moneyplan@gmail.com
-    web: https://paisapro.in
+    web: https://linkedin.com/in/shikha-bharti
     linkedin: https://linkedin.com/in/shikha-bharti
     description: "Personal Finance and Derivatives Trading enthusiast"
   nk:
@@ -70,3 +71,13 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+#collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  
+  posts:
+    output: true
+    permalink: /:path/
